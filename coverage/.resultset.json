@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/streaks/spec/controllers/home_controller_spec.rb": [
+      "/Users/Guest/streaks/spec/controllers/challenges_controller_spec.rb": [
         1,
         null,
         1,
@@ -36,8 +36,8 @@
         null,
         null,
         1,
-        12,
-        12,
+        17,
+        17,
         null,
         null,
         null,
@@ -496,6 +496,11 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/streaks/config/routes.rb": [
@@ -503,6 +508,8 @@
         1,
         1,
         1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/streaks/app/models/user.rb": [
@@ -574,14 +581,49 @@
         1,
         null
       ],
-      "/Users/Guest/streaks/app/helpers/home_helper.rb": [
+      "/Users/Guest/streaks/app/controllers/challenges_controller.rb": [
         1,
-        null
-      ],
-      "/Users/Guest/streaks/app/controllers/home_controller.rb": [
+        1,
         1,
         1,
         null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        10,
+        10,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
         null,
         null
       ],
@@ -600,9 +642,85 @@
         1,
         1,
         null,
+        null,
+        1,
+        22,
+        1,
+        1,
+        null,
+        null,
         null
       ],
-      "/Users/Guest/streaks/spec/features/sign_up_user_pages_spec.rb": [
+      "/Users/Guest/streaks/spec/controllers/home_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/streaks/app/controllers/home_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/Guest/streaks/spec/features/challenges/add_challenge_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        3,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/streaks/spec/features/challenges/destroy_challenge_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/streaks/spec/features/users/sign_up_user_pages_spec.rb": [
         1,
         null,
         1,
@@ -627,7 +745,7 @@
         null,
         null
       ],
-      "/Users/Guest/streaks/spec/features/update_user_pages_spec.rb": [
+      "/Users/Guest/streaks/spec/features/users/update_user_pages_spec.rb": [
         1,
         null,
         1,
@@ -656,23 +774,6 @@
         1,
         1,
         1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/streaks/spec/helpers/home_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
         null,
         null
@@ -721,9 +822,6 @@
         1,
         null,
         1,
-        null,
-        null,
-        1,
         3,
         3,
         3,
@@ -741,6 +839,7 @@
         1,
         1,
         12,
+        12,
         null,
         null,
         1,
@@ -749,6 +848,6 @@
         null
       ]
     },
-    "timestamp": 1446237112
+    "timestamp": 1446242935
   }
 }

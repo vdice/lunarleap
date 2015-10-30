@@ -1,0 +1,5 @@
+<ul id="challenges-listing">
+  <% @user.challenges.each do |challenge| %>
+    <li><%= render challenge %></li>
+  <% end %>
+</ul>

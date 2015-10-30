@@ -1,0 +1,6 @@
+<h4>
+  <%= link_to challenge.name, user_challenge_path(@user, challenge) %>
+  <small>
+    <%= challenge.created_at.localtime.strftime("created on %m/%d/%Y at %I:%M%p") %>
+  </small>
+</h4>

@@ -4,4 +4,9 @@ FactoryGirl.define do
     email 'telperion@redwoods.com'
     password 'password'
   end
+
+  factory :challenge do
+    name 'Push-up Challenge'
+    description 'Do 42 Push-ups every day'
+  end
 end

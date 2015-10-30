@@ -1,0 +1,15 @@
+<% if @user.challenges.any? %>
+  <h3>Your challenges</h3>
+<% else %>
+  <p>
+    You don't have any challenges, yet!
+  </p>
+<% end %>
+
+<!-- Challenges Listing -->
+<%= render 'listing' %>
+<hr>
+
+<!-- New Challenge -->
+<%= link_to 'New Challenge', new_user_challenge_path(current_user), id: 'new-challenge-link', remote: true %>
+<div id='new-challenge-form'></div>

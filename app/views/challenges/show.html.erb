@@ -1,0 +1,13 @@
+<%= render @challenge %> |
+<%= link_to 'Delete', user_challenge_path(@user, @challenge),
+                      data: {confirm: 'Are you sure?',
+                             method: 'delete'}%>
+<hr>
+<div class="challenge-description">
+  <% unless @challenge.description.empty? %>
+    <h4>Description</h4>
+    <p>
+      <%= @challenge.description %>
+    </p>
+  <% end %>
+</div>

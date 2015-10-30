@@ -2,9 +2,6 @@ class UsersController < ApplicationController
   before_action :authenticate_user!
   before_action :find_user, except: [:new, :create, :index]
 
-  def show
-  end
-
   def edit
     respond_to do |format|
       format.html
@@ -23,6 +20,7 @@ class UsersController < ApplicationController
   private
   def find_user
     @user = User.find(params[:id])
+    verify_current_user(@user)
   end
 
   def user_params
