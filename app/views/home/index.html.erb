@@ -1,5 +1,6 @@
-<h2>Home</h2>
+<h3>Lunarleap</h3>
 
+<hr>
 <% if current_user && user_signed_in? %>
   <%= link_to 'Challenges', user_challenges_path(current_user) %>
 <% end %>

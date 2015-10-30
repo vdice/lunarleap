@@ -1,4 +1,4 @@
-# Working title: Streaks
+# Working title: Lunarleap
 
 ##### _An app to track monthly goals and be inspired by those of others_
 
