@@ -8,6 +8,7 @@
 
 _Using this app, users can:_
 * _Create user accounts,_
+* _Add, view and delete new monthly challenges_
 * _More to come!_
 
 ## Setup
