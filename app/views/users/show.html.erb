@@ -1,6 +1,4 @@
-<% if @user.avatar %>
-  <%= image_tag @user.avatar, class: 'avatar' %>
-<% end %>
+<%= render 'avatar', css_class: 'avatar' %>
 <h3><%= @user.username %></h3>
 
 <hr>
