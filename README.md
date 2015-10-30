@@ -1,6 +1,6 @@
 # Working title: Streaks
 
-##### _An app to track personal streaks and be inspired by those of others_
+##### _An app to track monthly goals and be inspired by those of others_
 
 #### By **_Vaughn Dice_**
 

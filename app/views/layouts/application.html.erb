@@ -11,17 +11,8 @@
     <%= render 'layouts/navbar' %>
 
     <div class='container'>
-      <!-- Flash Messages -->
-      <% if alert %>
-        <div class="alert alert-danger" role="alert"><%= flash[:alert] %></div>
-      <% end %>
+      <%= render 'layouts/messages' %>
 
-      <% if notice %>
-        <div class="alert alert-success" role="alert"><%= flash[:notice] %></div>
-      <% end %>
-      <br>
-
-      <!-- View -->
       <%= yield %>
     </div>
 </body>
