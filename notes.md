@@ -13,11 +13,11 @@ user
 
 challenge
   -belongs_to user
-  -has_many categories
+  <!-- -has_many categories -->
   -has_many updates
 
-category
-  -has_many challenges
+<!-- category
+  -has_many challenges -->
 
 update
   -belongs_to challenge

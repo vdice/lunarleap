@@ -9,8 +9,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'devise'
 gem 'bootstrap-sass'
-gem "font-awesome-rails"
-gem 'paperclip'
+gem 'font-awesome-rails'
+gem 'carrierwave'
 
 group :development do
   gem 'letter_opener'

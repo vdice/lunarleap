@@ -581,9 +581,25 @@
         1,
         2,
         2,
+        2,
         null
       ],
       "/Users/Guest/streaks/app/models/challenge.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/streaks/spec/models/update_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/streaks/app/models/update.rb": [
         1,
         1,
         1,
@@ -612,6 +628,6 @@
         null
       ]
     },
-    "timestamp": 1446230386
+    "timestamp": 1446231487
   }
 }
