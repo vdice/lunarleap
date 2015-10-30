@@ -16,6 +16,16 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import "font-awesome";
+
 body {
   margin-top: 60px;
+}
+
+.avatar {
+  border-radius: 6px;
+  height: 128px;
+}
+
+.avatar-tiny {
+  height: 24px;
 }

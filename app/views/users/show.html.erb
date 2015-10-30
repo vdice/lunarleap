@@ -1,1 +1,9 @@
-<h3>Hello, <%= @user.username %>!</h3>
+<% if @user.avatar %>
+  <%= image_tag @user.avatar, class: 'avatar' %>
+<% end %>
+<h3><%= @user.username %></h3>
+
+<hr>
+<!-- Edit Profile -->
+<%= link_to 'Edit Profile', edit_user_path(@user), id: 'edit-user-link', remote: true %>
+<div id="edit-user-form"></div>
