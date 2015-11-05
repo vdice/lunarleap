@@ -1,12 +1,18 @@
-<%= image_tag 'capriole.jpeg', class: 'avatar bookmark' %>
-<h3>
-  Lunarleap <br>
-  <small>Where will this month's leap take you?</small>
-</h3>
+<div class="row">
+  <div class="col-xs-4 col-sm-2">
+    <%= image_tag 'capriole.jpeg', class: 'avatar bookmark' %>
+  </div>
+  <div class="col-xs-8 col-sm-10">
+    <h3>
+      Lunarleap <br>
+      <small>Where will this month's leap take you?</small>
+    </h3>
 
-<hr>
-<% if current_user && user_signed_in? %>
-  <%= link_to 'Challenges', user_challenges_path(current_user) %>
-<% else %>
-  Please <%= link_to 'sign in', new_user_session_path %> to view/add challenges.
-<% end %>
+    <hr>
+    <% if current_user && user_signed_in? %>
+      <%= link_to 'Challenges', user_challenges_path(current_user) %>
+    <% else %>
+      Please <%= link_to 'sign in', new_user_session_path %> to view/add challenges.
+    <% end %>
+  </div>
+</div>

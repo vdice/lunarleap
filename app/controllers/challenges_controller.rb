@@ -23,6 +23,20 @@ class ChallengesController < ApplicationController
     end
   end
 
+  def edit
+  end
+
+  def update
+    if @challenge.update(challenge_params)
+      respond_to do |format|
+        format.html { redirect_to user_challenges_path(@user) }
+        format.js
+      end
+    else
+      render :edit
+    end
+  end
+
   def destroy
     @challenge.destroy
     redirect_to user_challenges_path(@user)

@@ -1,13 +1,15 @@
-<%= render @challenge %> |
+<!-- Challenge preview -->
+<div id="challenge-render">
+  <%= render @challenge %>
+</div>
+<%= link_to 'Edit', edit_user_challenge_path(@user, @challenge), id: 'edit-challenge-link', remote: true %> |
 <%= link_to 'Delete', user_challenge_path(@user, @challenge),
                       data: {confirm: 'Are you sure?',
                              method: 'delete'}%>
 <hr>
-<div class="challenge-description">
-  <% unless @challenge.description.empty? %>
-    <h4>Description</h4>
-    <p>
-      <%= @challenge.description %>
-    </p>
-  <% end %>
+<!-- Edit form -->
+<div id="edit-challenge-form"></div>
+<!-- Challenge description -->
+<div id="challenge-description">
+  <%= render 'challenge_description' %>
 </div>
