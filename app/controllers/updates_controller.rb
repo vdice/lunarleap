@@ -22,6 +22,14 @@ class UpdatesController < ApplicationController
     end
   end
 
+  def show
+    respond_to do |format|
+      format.html
+      format.js
+    end
+  end
+
+
   private
   def find_challenge_and_user
     @challenge = Challenge.find(params[:challenge_id])
@@ -34,6 +42,6 @@ class UpdatesController < ApplicationController
   end
 
   def update_params
-    params.require(:update).permit(:body)
+    params.require(:update).permit(:title, :body)
   end
 end

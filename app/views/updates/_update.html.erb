@@ -1,6 +1,8 @@
-<h5>
-  <%= update.body %><br>
+<h5 id="update-preview-<%= update.id %>">
+  <%= link_to update.title, challenge_update_path(@challenge, update), remote: true %><br>
   <small>
     <%= update.created_at.localtime.strftime("created on %A, %m/%d/%Y at %I:%M%p") %>
   </small>
 </h5>
+
+<div id="update-body-<%= update.id %>"></div>

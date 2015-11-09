@@ -9,4 +9,9 @@ FactoryGirl.define do
     name 'Push-up Challenge'
     description 'Do 42 Push-ups every day'
   end
+
+  factory :update do
+    title 'I did 43 actually!'
+    body 'I was feeling super motivated.'
+  end
 end

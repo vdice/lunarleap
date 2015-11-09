@@ -1,0 +1,5 @@
+$("#update-body-<%= @update.id %>").html('<%= j render "update_body", update: @update %>');
+
+$('#update-body-<%= @update.id %>').click(function() {
+  $("#update-body-<%= @update.id %>").html('');
+});
