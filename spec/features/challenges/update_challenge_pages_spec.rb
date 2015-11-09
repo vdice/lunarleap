@@ -14,7 +14,6 @@ describe 'the edit a challenge process' do
   end
 
   it 'can edit a challenge', js: true do
-    login_as(@user)
     visit user_challenge_path(@user, @challenge)
     click_on 'edit-challenge-link'
     fill_in 'Name', :with => '42 Jumping Jacks a Day!'
@@ -23,7 +22,6 @@ describe 'the edit a challenge process' do
   end
 
   it 'throws error if name is left blank', js: true do
-    login_as(@user)
     visit user_challenge_path(@user, @challenge)
     click_on 'edit-challenge-link'
     fill_in 'Name', :with => ''

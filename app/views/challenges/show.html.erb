@@ -6,10 +6,26 @@
 <%= link_to 'Delete', user_challenge_path(@user, @challenge),
                       data: {confirm: 'Are you sure?',
                              method: 'delete'}%>
-<hr>
 <!-- Edit form -->
 <div id="edit-challenge-form"></div>
 <!-- Challenge description -->
 <div id="challenge-description">
   <%= render 'challenge_description' %>
 </div>
+
+<hr>
+
+<!-- Add update -->
+<%= link_to 'Check in', new_challenge_update_path(@challenge), id: 'new-update-link', remote: true %>
+<div id="new-update-form"></div>
+
+<!-- Updates listing -->
+<% if @challenge.updates.any? %>
+  <h3>Your updates:</h3>
+<% else %>
+  <p>
+    You don't have any updates, yet!  Are you going to complete your challenge?!
+  </p>
+<% end %>
+
+<%= render 'updates/listing' %>

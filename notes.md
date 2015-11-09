@@ -21,3 +21,29 @@ challenge
 
 update
   -belongs_to challenge
+
+
+Features:
+
+IN PROG:
+  I want to be able to add an update to a challenge with text body
+  I want to be able to add an update to a challenge with images
+  I want to be able to add an update to a challenge with other media?
+
+  I want to subscribe to other's challenges
+
+  I want to be notified (via email) if  haven't checked in (in 3 days?)
+
+  I want all images I upload to be stored in the cloud (carrierwave with S3?)
+
+  I want to be able to check in/send update from Instagram
+
+  I want to be able to search challenges by category
+
+  I want to see a condensed, paginated listing of updates for a challenge
+
+APIs
+
+Mailchimp - send mails on
+AWS S3
+Instagram

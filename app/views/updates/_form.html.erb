@@ -1,0 +1,13 @@
+<%= render 'layouts/errors', object: @update %>
+
+<%= form_for [@challenge, @update], remote: true do |f| %>
+  <div class="field">
+    <%= f.label :body %>
+    <%= f.text_area :body, class: 'form-control' %>
+  </div>
+
+  <br>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
