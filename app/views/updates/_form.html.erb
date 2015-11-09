@@ -11,6 +11,11 @@
     <%= f.text_area :body, class: 'form-control' %>
   </div>
 
+  <div class="field">
+    <%= f.label :picture %>
+    <%= f.file_field :picture, accept: "image/jpeg, image/jpg, image/gif, image/png" %>
+  </div>
+
   <br>
   <div class="actions">
     <%= f.submit %>

@@ -93,6 +93,8 @@
         null,
         1,
         null,
+        1,
+        null,
         null
       ],
       "/Users/Guest/lunarleap/config/boot.rb": [
@@ -861,6 +863,7 @@
         1,
         1,
         1,
+        1,
         null,
         null,
         1,
@@ -1001,6 +1004,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/Users/Guest/lunarleap/spec/models/user_spec.rb": [
@@ -1043,6 +1047,6 @@
         null
       ]
     },
-    "timestamp": 1447098570
+    "timestamp": 1447106494
   }
 }

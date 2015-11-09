@@ -14,7 +14,7 @@ class UpdatesController < ApplicationController
     @update = @challenge.updates.new(update_params)
     if @update.save
       respond_to do |format|
-        format.html { redirect_to user_challenges_path(@user) }
+        format.html { redirect_to user_challenge_path(@user, @challenge) }
         format.js
       end
     else
@@ -42,6 +42,6 @@ class UpdatesController < ApplicationController
   end
 
   def update_params
-    params.require(:update).permit(:title, :body)
+    params.require(:update).permit(:title, :body, :picture)
   end
 end

@@ -25,8 +25,7 @@ update
 
 Features:
 
-IN PROG:
-  I want to be able to add an update to a challenge with text body
+  <!-- I want to be able to add an update to a challenge with text body -->
   I want to be able to add an update to a challenge with images
   I want to be able to add an update to a challenge with other media?
 
