@@ -1,7 +1,16 @@
-<%= render 'avatar', user: @user, css_class: 'avatar' %>
-<h3><%= @user.username %></h3>
+<div class="row">
+  <div class="col-xs-4">
+    <%= render 'avatar', user: @user, css_class: 'avatar' %>
+    <h3><%= @user.username %></h3>
 
-<hr>
-<!-- Edit Profile -->
-<%= link_to 'Edit Profile', edit_user_path(@user), id: 'edit-user-link', remote: true %>
-<div id="edit-user-form"></div>
+    <hr>
+    <!-- Edit Profile -->
+    <%= link_to 'Edit Profile', edit_user_path(@user), id: 'edit-user-link', remote: true %>
+    <div id="edit-user-form"></div>
+  </div>
+
+  <div class="col-xs-8 well">
+    <h4>Dashboard</h4>
+    <h5><%= link_to 'My Challenges', user_challenges_path(@user) %></h5>
+  </div>
+</div>
