@@ -35,6 +35,15 @@
         1,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         26,
         26,
@@ -166,6 +175,19 @@
         null,
         null,
         null,
+        null
+      ],
+      "/Users/Guest/lunarleap/config/initializers/carrierwave.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
         null
       ],
       "/Users/Guest/lunarleap/config/initializers/cookies_serializer.rb": [
@@ -1047,6 +1069,6 @@
         null
       ]
     },
-    "timestamp": 1447106494
+    "timestamp": 1447114641
   }
 }

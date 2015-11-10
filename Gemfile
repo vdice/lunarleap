@@ -11,6 +11,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'carrierwave'
+gem 'fog'
 
 group :development do
   gem 'letter_opener'
@@ -25,6 +26,7 @@ group :test, :development do
   gem 'launchy'
   gem 'pry'
   gem 'hirb'
+  gem 'dotenv-rails'
 end
 
 group :test do

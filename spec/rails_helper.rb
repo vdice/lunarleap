@@ -22,6 +22,15 @@ RSpec.configure do |config|
   # Bring in for AJAX tests:
   config.before(:suite) do
     DatabaseCleaner.strategy = :truncation
+
+    # Mock Fog calls
+    # Fog.mock!
+    # connection = Fog::Storage.new({
+    #   :provider => 'AWS',
+    #   :aws_access_key_id => 'bogus',
+    #   :aws_secret_access_key => 'bogus'
+    # })
+    # connection.directories.create(:key => "lunarleap")
   end
 
   config.around(:each) do |example|
