@@ -2,6 +2,10 @@ class UsersController < ApplicationController
   before_action :authenticate_user!
   before_action :find_user, except: [:new, :create, :index]
 
+  def index
+    @users = User.all
+  end
+
   def edit
     respond_to do |format|
       format.html

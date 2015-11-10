@@ -1,5 +1,5 @@
 class UpdatesController < ApplicationController
-  before_action :find_challenge_and_user
+  before_action :find_challenge_and_user, except: [:show]
   before_action :find_update, except: [:index, :new, :create]
 
   def new

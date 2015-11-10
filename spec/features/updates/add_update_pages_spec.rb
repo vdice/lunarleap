@@ -19,7 +19,7 @@ describe 'the add an update to a challenge process' do
     fill_in 'Title', :with => 'I did 43 actually!'
     fill_in 'Body', :with => 'I was feelin\' good.'
     page.attach_file("Picture", 'spec/fixtures/images/avatar.jpeg')
-    find('input[type="submit"]').click
+    find('#save-update-button').click
     expect(page).to have_content 'I did 43 actually!'
   end
 
@@ -27,7 +27,7 @@ describe 'the add an update to a challenge process' do
     visit user_challenge_path(@user, @challenge)
     click_on 'new-update-link'
     fill_in 'Body', :with => ''
-    find('input[type="submit"]').click
+    find('#save-update-button').click
     expect(page).to have_content 'errors'
   end
 end

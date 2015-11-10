@@ -5,34 +5,33 @@
       <%= render @challenge %>
     </div>
 
-    <!-- Edit form -->
-    <div id="edit-challenge-form"></div>
     <!-- Challenge description -->
     <div id="challenge-description">
       <%= render 'challenge_description' %>
     </div>
 
     <hr>
-    <%= link_to 'Edit', edit_user_challenge_path(@user, @challenge), id: 'edit-challenge-link', remote: true %> |
-    <%= link_to 'Delete', user_challenge_path(@user, @challenge),
-                          data: {confirm: 'Are you sure?',
-                                 method: 'delete'}%>
+    <!-- Edit/Delete -->
+    <% if current_user.eql?(@user) %>
+      <%= render 'edit_delete_form' %>
+    <% end %>
   </div>
 
   <div class="col-xs-7">
 
     <!-- Add update -->
-    <h3>
-      <%= link_to 'Check in', new_challenge_update_path(@challenge), id: 'new-update-link', remote: true %>
-    </h3>
-    <div id="new-update-form"></div>
+    <% if current_user.eql?(@user) %>
+      <h3>
+        <%= link_to (fa_icon 'plus-square'), new_challenge_update_path(@challenge), id: 'new-update-link', remote: true %>
+      </h3>
+      <div id="new-update-form"></div>
+    <% end %>
 
     <!-- Updates listing -->
-    <% if @challenge.updates.any? %>
-      <h3>Your updates:</h3>
-    <% else %>
+    <h3>Updates:</h3>
+    <% unless @challenge.updates.any? %>
       <p>
-        You don't have any updates, yet!  Are you going to complete your challenge?!
+        <%= @challenge.user.username %> hasn't added any updates, yet!
       </p>
     <% end %>
 

@@ -13,7 +13,7 @@ describe 'the add a challenge process' do
   it 'can add a challenge', js: true do
     login_as(@user)
     visit user_challenges_path(@user)
-    expect(page).to have_content 'You don\'t have any challenges, yet!'
+    expect(page).to have_content "#{@user.username} doesn\'t have any challenges, yet!"
     click_on 'new-challenge-link'
     fill_in 'Name', :with => 'Push-up Challenge'
     fill_in 'Description', :with => 'Do 42 push-ups every day'

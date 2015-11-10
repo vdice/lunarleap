@@ -18,6 +18,6 @@ describe 'the destroy a challenge process' do
   it 'cannot attempt to destroy a challenge if not same user' do
     login_as(FactoryGirl.create(:user, :username => 'Evildoer', :email => 'evil@doer.com'))
     visit user_challenge_path(@user, @challenge)
-    expect(page).to have_content 'You are not authorized'
+    expect(page).to_not have_content 'Delete'
   end
 end

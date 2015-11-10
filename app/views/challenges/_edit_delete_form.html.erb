@@ -1,0 +1,5 @@
+<div id="edit-challenge-form"></div>
+<%= link_to 'Edit', edit_user_challenge_path(@user, @challenge), id: 'edit-challenge-link', remote: true %> |
+<%= link_to 'Delete', user_challenge_path(@user, @challenge),
+                      data: {confirm: 'Are you sure?',
+                             method: 'delete'}%>

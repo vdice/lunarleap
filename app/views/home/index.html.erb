@@ -10,7 +10,8 @@
 
     <hr>
     <% if current_user && user_signed_in? %>
-      <%= link_to 'Challenges', user_challenges_path(current_user) %>
+      <%= link_to 'Challenges', user_challenges_path(current_user) %><br>
+      <%= link_to 'Users', users_path %>
     <% else %>
       Please <%= link_to 'sign in', new_user_session_path %> to view/add challenges.
     <% end %>

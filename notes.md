@@ -26,12 +26,12 @@ update
 Features:
 
   <!-- I want to be able to add an update to a challenge with text body -->
-  I want to be able to add an update to a challenge with images
+  <!-- I want to be able to add an update to a challenge with images -->
   I want to be able to add an update to a challenge with other media?
 
   I want to subscribe to other's challenges
 
-  I want to be notified (via email) if  haven't checked in (in 3 days?)
+  I want to be notified (via email) if I haven't checked in (in 3 days?)
 
   I want all images I upload to be stored in the cloud (carrierwave with S3?)
 

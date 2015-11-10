@@ -1,14 +1,15 @@
 <!-- New Challenge -->
-<%= link_to 'New Challenge', new_user_challenge_path(current_user), id: 'new-challenge-link', remote: true %>
-<div id='new-challenge-form'></div>
-
-<hr>
+<% if current_user.eql?(@user) %>
+  <%= link_to 'New Challenge', new_user_challenge_path(@user), id: 'new-challenge-link', remote: true %>
+  <div id='new-challenge-form'></div>
+  <hr>
+<% end %>
 
 <% if @user.challenges.any? %>
-  <h3>Your challenges</h3>
+  <h3> <%= @user.username %>'s challenges</h3>
 <% else %>
   <p>
-    You don't have any challenges, yet!
+    <%= @user.username %> doesn't have any challenges, yet!
   </p>
 <% end %>
 
