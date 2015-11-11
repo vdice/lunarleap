@@ -8,7 +8,9 @@
 
 _Using this app, users can:_
 * _Create user accounts,_
-* _Add, view and delete new monthly challenges_
+* _Add, view, modify and delete new monthly challenges_
+* _Add and view updates to each monthly challenge_
+* _View and follow other users' challenges_
 * _More to come!_
 
 ## Setup
@@ -28,7 +30,7 @@ rails s        # starts up the rails server
 
 ## Technologies Used
 
-_Ruby, rspec, Rails, Capybara, Postgres, Rake, Active Record, Devise_
+_Ruby, rspec, Rails, Capybara, Postgres, Rake, Active Record, Devise, Carrierwave, AWS_
 
 ### Legal
 
