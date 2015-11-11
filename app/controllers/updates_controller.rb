@@ -29,7 +29,6 @@ class UpdatesController < ApplicationController
     end
   end
 
-
   private
   def find_challenge_and_user
     @challenge = Challenge.find(params[:challenge_id])

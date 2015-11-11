@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
-  
+
   devise_for :users
 
   resources :users do
@@ -9,5 +9,9 @@ Rails.application.routes.draw do
 
   resources :challenges do
     resources :updates
+  end
+
+  resources :users do
+    resources :subscriptions
   end
 end

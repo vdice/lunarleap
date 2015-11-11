@@ -1,0 +1,4 @@
+<%= form_for [current_user, Subscription.new], remote: true do |f| %>
+  <%= f.hidden_field :author_id, value: @user.id %>
+  <%= f.submit 'Follow', id: 'follow-button' %>
+<% end %>

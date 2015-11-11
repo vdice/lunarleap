@@ -1,0 +1,3 @@
+<button>
+  <%= link_to 'Unfollow', user_subscription_path(current_user, current_user.subscriptions.find_by(author_id: @user.id)), data: {method: 'delete'}, remote: true %>
+</button>

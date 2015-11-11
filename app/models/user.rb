@@ -7,4 +7,5 @@ class User < ActiveRecord::Base
   mount_uploader :avatar, AvatarUploader
   validates :username, presence: true
   has_many :challenges, dependent: :destroy
+  has_many :subscriptions, dependent: :destroy
 end

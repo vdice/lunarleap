@@ -5,9 +5,13 @@
   <hr>
 <% end %>
 
-<% if @user.challenges.any? %>
-  <h3> <%= @user.username %>'s challenges</h3>
-<% else %>
+<h3>
+  <%= @user.username %>'s challenges
+  <% unless current_user.eql?(@user) %>
+    <%= render 'subscriptions/follow_unfollow' %>
+  <% end %>
+</h3>
+<% unless @user.challenges.any? %>
   <p>
     <%= @user.username %> doesn't have any challenges, yet!
   </p>

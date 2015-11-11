@@ -45,8 +45,8 @@
         null,
         null,
         1,
-        28,
-        28,
+        34,
+        34,
         null,
         null,
         null,
@@ -545,6 +545,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/lunarleap/app/models/user.rb": [
@@ -554,6 +558,7 @@
         1,
         null,
         null,
+        1,
         1,
         1,
         1,
@@ -616,6 +621,10 @@
         1,
         null
       ],
+      "/Users/Guest/lunarleap/app/helpers/subscriptions_helper.rb": [
+        1,
+        null
+      ],
       "/Users/Guest/lunarleap/app/helpers/updates_helper.rb": [
         1,
         null
@@ -668,7 +677,7 @@
         null,
         1,
         1,
-        26,
+        29,
         null,
         null,
         1,
@@ -701,7 +710,7 @@
         null,
         null,
         1,
-        27,
+        29,
         1,
         1,
         null,
@@ -717,6 +726,50 @@
       ],
       "/Users/Guest/lunarleap/app/controllers/home_controller.rb": [
         1,
+        null
+      ],
+      "/Users/Guest/lunarleap/spec/controllers/subscriptions_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/lunarleap/app/controllers/subscriptions_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        null,
         null
       ],
       "/Users/Guest/lunarleap/spec/controllers/updates_controller_spec.rb": [
@@ -755,7 +808,6 @@
         3,
         3,
         3,
-        null,
         null,
         null,
         null,
@@ -895,6 +947,37 @@
         null,
         null
       ],
+      "/Users/Guest/lunarleap/spec/features/subscriptions/follow_user_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/lunarleap/spec/features/updates/add_update_pages_spec.rb": [
         1,
         null,
@@ -1013,6 +1096,22 @@
         null,
         null
       ],
+      "/Users/Guest/lunarleap/spec/helpers/subscriptions_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null
+      ],
       "/Users/Guest/lunarleap/spec/helpers/updates_helper_spec.rb": [
         1,
         null,
@@ -1045,6 +1144,21 @@
         1,
         null
       ],
+      "/Users/Guest/lunarleap/spec/models/subscription_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/lunarleap/app/models/subscription.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/Guest/lunarleap/spec/models/update_spec.rb": [
         1,
         null,
@@ -1066,6 +1180,7 @@
         1,
         null,
         1,
+        2,
         2,
         2,
         null
@@ -1106,6 +1221,6 @@
         null
       ]
     },
-    "timestamp": 1447182990
+    "timestamp": 1447200338
   }
 }

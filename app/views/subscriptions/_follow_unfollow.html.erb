@@ -1,0 +1,7 @@
+<small id='follow-unfollow'>
+  <% if Subscription.exists?(user_id: current_user.id, author_id: @user.id) %>
+    <%= render 'subscriptions/unfollow_form' %>
+  <% else %>
+    <%= render 'subscriptions/follow_form' %>
+  <% end %>
+</small>

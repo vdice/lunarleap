@@ -10,6 +10,8 @@ model props and relationships
 user
   -current challenge id?
   -has_many challenges
+  <!-- -following => [] (array of user_ids) -->
+  -has_many subscriptions
 
 challenge
   -belongs_to user
@@ -22,6 +24,9 @@ challenge
 update
   -belongs_to challenge
 
+subscription
+  -belongs_to user
+  -author: user_id
 
 Features:
 
@@ -33,7 +38,7 @@ Features:
 
   I want to be notified (via email) if I haven't checked in (in 3 days?)
 
-  I want all images I upload to be stored in the cloud (carrierwave with S3?)
+  <!-- I want all images I upload to be stored in the cloud (carrierwave with S3?) -->
 
   I want to be able to check in/send update from Instagram
 
