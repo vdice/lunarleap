@@ -1,21 +1,33 @@
-<!-- New Challenge -->
-<% if current_user.eql?(@user) %>
-  <%= link_to 'New Challenge', new_user_challenge_path(@user), id: 'new-challenge-link', remote: true %>
-  <div id='new-challenge-form'></div>
-  <hr>
-<% end %>
+<!-- user_challenges_path -->
+<% if @user %>
 
-<h3>
-  <%= @user.username %>'s challenges
-  <% unless current_user.eql?(@user) %>
-    <%= render 'subscriptions/follow_unfollow' %>
+  <% if current_user.eql?(@user) %>
+    <%= link_to 'New Challenge', new_user_challenge_path(@user), id: 'new-challenge-link', remote: true %>
+    <div id='new-challenge-form'></div>
+    <hr>
   <% end %>
-</h3>
-<% unless @user.challenges.any? %>
-  <p>
-    <%= @user.username %> doesn't have any challenges, yet!
-  </p>
-<% end %>
 
-<!-- Challenges Listing -->
-<%= render 'listing' %>
+  <h3>
+    <%= @user.username %>'s challenges
+    <% unless current_user.eql?(@user) %>
+      <%= render 'subscriptions/follow_unfollow' %>
+    <% end %>
+  </h3>
+  <% unless @user.challenges.any? %>
+    <p>
+      <%= @user.username %> doesn't have any challenges, yet!
+    </p>
+  <% end %>
+
+  <%= render 'listing', user: @user %>
+
+<!-- challenges_path -->
+<% else %>
+
+  <% @users.each do |user| %>
+    User: <%= link_to user.username, user_challenges_path(user) %>
+    <div class="well">
+      <%= render 'listing', user: user %>
+    </div>
+  <% end %>
+<% end %>

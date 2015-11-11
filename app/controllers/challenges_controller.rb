@@ -1,8 +1,15 @@
 class ChallengesController < ApplicationController
   before_action :authenticate_user!
-  before_action :find_user
+  before_action :find_user, except: [:index]
   before_action :verify_user, except: [:index, :show]
   before_action :find_challenge, except: [:index, :new, :create]
+
+  def index
+    @users = User.all
+    if params[:user_id]
+      find_user
+    end
+  end
 
   def new
     @challenge = Challenge.new

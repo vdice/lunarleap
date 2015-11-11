@@ -12,5 +12,14 @@
   <div class="col-xs-8 well">
     <h4>Dashboard</h4>
     <h5><%= link_to 'My Challenges', user_challenges_path(@user) %></h5>
+
+    <br>
+    <h4>Currently Following:</h4>
+    <ul>
+      <% @user.subscriptions.each do |subscription| %>
+        <% user = User.find(subscription.author_id) %>
+        <%= link_to user.username, user_challenges_path(user) %>
+      <% end %>
+    </ul>
   </div>
 </div>

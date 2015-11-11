@@ -7,7 +7,8 @@ describe 'the add a challenge process' do
 
   it 'cannot add a challenge if not logged in' do
     visit root_path
-    expect(page).to_not have_content 'Challenges'
+    click_link 'Challenges'
+    expect(page).to_not have_content 'New Challenge'
   end
 
   it 'can add a challenge', js: true do
