@@ -10,7 +10,6 @@ model props and relationships
 user
   -current challenge id?
   -has_many challenges
-  <!-- -following => [] (array of user_ids) -->
   -has_many subscriptions
 
 challenge

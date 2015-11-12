@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-11-12T09:30:15-08:00">2015-11-12T09:30:15-08:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-11-12T10:59:52-08:00">2015-11-12T10:59:52-08:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.67
+         1.68
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>50</b> files in total.
-    <b>454</b> relevant lines. 
-    <span class="green"><b>454</b> lines covered</span> and
+    <b>52</b> files in total.
+    <b>466</b> relevant lines. 
+    <span class="green"><b>466</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -141,11 +141,21 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#e3a0a8e23b715d667cd8f09b6efa8a55bd8a9f4e" class="src_link" title="app/models/challenge.rb">app/models/challenge.rb</a></td>
+        <td class="strong"><a href="#6e2a88917604ffcf234747aa43f9734290234252" class="src_link" title="app/models/category.rb">app/models/category.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>5</td>
         <td>4</td>
         <td>4</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#e3a0a8e23b715d667cd8f09b6efa8a55bd8a9f4e" class="src_link" title="app/models/challenge.rb">app/models/challenge.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>6</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -501,7 +511,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#d154acaba8a556963845a9f4478e8a0a33f47bae" class="src_link" title="spec/models/challenge_spec.rb">spec/models/challenge_spec.rb</a></td>
+        <td class="strong"><a href="#991caf4476c2cd4b089d2d5397042386b6f353a8" class="src_link" title="spec/models/category_spec.rb">spec/models/category_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>7</td>
         <td>5</td>
@@ -511,13 +521,23 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#d154acaba8a556963845a9f4478e8a0a33f47bae" class="src_link" title="spec/models/challenge_spec.rb">spec/models/challenge_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>8</td>
+        <td>6</td>
+        <td>6</td>
+        <td>0</td>
+        <td>1.7</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#42b903e37da4dd69b42434b4f6aa78b9b62ca824" class="src_link" title="spec/models/subscription_spec.rb">spec/models/subscription_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>6</td>
-        <td>4</td>
-        <td>4</td>
+        <td>7</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
-        <td>1.5</td>
+        <td>1.6</td>
       </tr>
       
       <tr>
@@ -547,7 +567,7 @@
         <td>24</td>
         <td>24</td>
         <td>0</td>
-        <td>3.8</td>
+        <td>4.2</td>
       </tr>
       
     </tbody>
@@ -2006,13 +2026,61 @@
   </pre>
 </div>
       
+        <div class="source_table" id="6e2a88917604ffcf234747aa43f9734290234252">
+  <div class="header">
+    <h3>app/models/category.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class Category &lt; ActiveRecord::Base</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  has_and_belongs_to_many :challenges</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates :name, presence: true</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_uniqueness_of :name</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="e3a0a8e23b715d667cd8f09b6efa8a55bd8a9f4e">
   <div class="header">
     <h3>app/models/challenge.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -2041,10 +2109,16 @@
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
+          <code class="ruby">  has_and_belongs_to_many :categories</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
           <code class="ruby">  validates :name, presence: true</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="5">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">end</code>
@@ -7676,13 +7750,73 @@
   </pre>
 </div>
       
+        <div class="source_table" id="991caf4476c2cd4b089d2d5397042386b6f353a8">
+  <div class="header">
+    <h3>spec/models/category_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">RSpec.describe Category, type: :model do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="4">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it {should have_and_belong_to_many :challenges}</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="5">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it {should validate_presence_of :name}</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="6">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it {should validate_uniqueness_of :name}</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="d154acaba8a556963845a9f4478e8a0a33f47bae">
   <div class="header">
     <h3>spec/models/challenge_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -7723,10 +7857,16 @@
         <li class="covered" data-hits="2" data-linenumber="6">
           <span class="hits">2</span>
           
+          <code class="ruby">  it {should have_and_belong_to_many :categories}</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="7">
+          <span class="hits">2</span>
+          
           <code class="ruby">  it {should validate_presence_of :name}</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">end</code>
@@ -7741,8 +7881,8 @@
     <h3>spec/models/subscription_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -7777,10 +7917,16 @@
         <li class="covered" data-hits="2" data-linenumber="5">
           <span class="hits">2</span>
           
+          <code class="ruby">  it {should validate_uniqueness_of :author_id}</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="6">
+          <span class="hits">2</span>
+          
           <code class="ruby">  it {should belong_to :user}</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">end</code>
@@ -8140,14 +8286,14 @@
           <code class="ruby">  config.around(:each) do |example|</code>
         </li>
       
-        <li class="covered" data-hits="34" data-linenumber="37">
-          <span class="hits">34</span>
+        <li class="covered" data-hits="39" data-linenumber="37">
+          <span class="hits">39</span>
           
           <code class="ruby">    DatabaseCleaner.cleaning do</code>
         </li>
       
-        <li class="covered" data-hits="34" data-linenumber="38">
-          <span class="hits">34</span>
+        <li class="covered" data-hits="39" data-linenumber="38">
+          <span class="hits">39</span>
           
           <code class="ruby">      example.run</code>
         </li>

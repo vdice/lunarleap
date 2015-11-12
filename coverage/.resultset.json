@@ -45,8 +45,8 @@
         null,
         null,
         1,
-        34,
-        34,
+        39,
+        39,
         null,
         null,
         null,
@@ -1136,10 +1136,27 @@
         1,
         null
       ],
+      "/Users/Guest/lunarleap/spec/models/category_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/lunarleap/app/models/category.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/Guest/lunarleap/spec/models/challenge_spec.rb": [
         1,
         null,
         1,
+        2,
         2,
         2,
         2,
@@ -1150,12 +1167,14 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/Users/Guest/lunarleap/spec/models/subscription_spec.rb": [
         1,
         null,
         1,
+        2,
         2,
         2,
         null
@@ -1229,6 +1248,6 @@
         null
       ]
     },
-    "timestamp": 1447349415
+    "timestamp": 1447354792
   }
 }

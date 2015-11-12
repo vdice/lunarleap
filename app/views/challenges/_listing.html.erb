@@ -1,3 +1,6 @@
+<% unless user.challenges.any? %>
+  <p><%= user.username %> doesn't have any challenges, yet!</p>
+<% end %>
 <ul id="challenges-listing">
   <% user.challenges.each do |challenge| %>
     <li><%= render challenge %></li>
