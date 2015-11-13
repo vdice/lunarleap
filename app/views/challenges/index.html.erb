@@ -1,10 +1,12 @@
 <% if current_user && user_signed_in? %>
-  <h4>
-    Create a new challenge:
-    <%= link_to (fa_icon 'plus-square'), new_user_challenge_path(current_user), id: 'new-challenge-link', remote: true %>
-  </h4>
-  <div id='new-challenge-form'></div>
-  <hr>
+  <% unless @user && !@user.eql?(current_user) %>
+    <h4>
+      Create a new challenge:
+      <%= link_to (fa_icon 'plus-square'), new_user_challenge_path(current_user), id: 'new-challenge-link', remote: true %>
+    </h4>
+    <div id='new-challenge-form'></div>
+    <hr>
+  <% end %>
 <% end %>
 
 <!-- user_challenges_path -->

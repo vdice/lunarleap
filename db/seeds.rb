@@ -18,7 +18,9 @@ challenge.save
 
 follower = User.create({username: 'Craig', email: 'cr@ig.com', password: 'password'})
 
-subscription = follower.subscriptions.create({author_id: user.id})
+subscription = follower.subscriptions.new({author_id: user.id})
+
+follower.save
 
 categories = Category.create([{name: 'Fitness'},
                               {name: 'Creative'},
