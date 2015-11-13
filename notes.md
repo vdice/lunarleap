@@ -14,11 +14,11 @@ user
 
 challenge
   -belongs_to user
-  <!-- -has_many categories -->
+  -has_many categories
   -has_many updates
 
-<!-- category
-  -has_many challenges -->
+category
+  -has_many challenges
 
 update
   -belongs_to challenge
@@ -34,6 +34,7 @@ Features:
   I want to be able to add an update to a challenge with other media?
 
   I want to subscribe to other's challenges
+  (Can follow but need to implement details )
 
   I want to be notified (via email) if I haven't checked in (in 3 days?)
 
@@ -41,7 +42,7 @@ Features:
 
   I want to be able to check in/send update from Instagram
 
-  I want to be able to search challenges by category
+  <!-- I want to be able to search challenges by category -->
 
   I want to see a condensed, paginated listing of updates for a challenge
 

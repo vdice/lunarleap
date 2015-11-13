@@ -11,7 +11,9 @@ _Using this app, users can:_
 * _Add, view, modify and delete new monthly challenges_
 * _Add and view updates to each monthly challenge_
 * _View and follow other users' challenges_
-* _More to come!_
+* _Assign a category to a challenge_
+* _Explore challenges by category_
+* _...plus more to come!_
 
 ## Setup
 * _Clone this repository_
