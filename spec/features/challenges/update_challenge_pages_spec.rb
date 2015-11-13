@@ -10,7 +10,7 @@ describe 'the edit a challenge process' do
   it 'cannot attempt to edit a challenge if not same user' do
     login_as(FactoryGirl.create(:user, :username => 'Evildoer', :email => 'evil@doer.com'))
     visit user_challenge_path(@user, @challenge)
-    expect(page).to_not have_content 'Edit'
+    expect(page).to_not have_css '#edit-challenge-link'
     visit edit_user_challenge_path(@user, @challenge)
     expect(page).to have_content 'not authorized'
   end

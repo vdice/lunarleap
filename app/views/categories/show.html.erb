@@ -1,0 +1,16 @@
+<h3>
+  <button class="category"><%= @category.name %></button><br>
+</h3>
+
+<% if @category.challenges.any? %>
+  <h4>Challenges:</h4>
+  <ul class='category-listing'>
+    <% @category.challenges.each do |challenge| %>
+      <li><%= link_to challenge.name, user_challenge_path(challenge.user, challenge) %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <h5>
+    There are no challenges with this tag, yet.
+  </h5>
+<% end %>

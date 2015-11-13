@@ -1,3 +1,3 @@
 $('#new-challenge-link').show();
 $('#new-challenge-form').html('');
-$('#challenges-listing').append('<%= j render @challenge %>');
+$('#challenges-listing-user-<%= @challenge.user.id %>').append('<%= j render @challenge %>');

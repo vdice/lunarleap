@@ -2,5 +2,8 @@
   <%= link_to challenge.name, user_challenge_path(challenge.user, challenge) %>
   <small>
     <%= challenge.created_at.localtime.strftime("created on %A, %m/%d/%Y at %I:%M%p") %>
-  </small>
+  </small><br><br>
+  <% challenge.categories.each do |category| %>
+    <button class="category tiny"><%= link_to category.name, category_path(category) %></button>
+  <% end %>
 </h4>

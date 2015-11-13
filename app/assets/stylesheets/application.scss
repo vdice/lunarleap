@@ -33,3 +33,26 @@ body {
 ul {
   list-style-type: none;
 }
+
+li {
+  word-wrap: break-word;
+}
+
+.category {
+  border-radius: 25px;
+  background-color: #ff4646;
+  margin: 5px;
+}
+
+.category a, .category span {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tiny {
+  font-size: 75%;
+}
+
+.well li {
+  width: 100%;
+}

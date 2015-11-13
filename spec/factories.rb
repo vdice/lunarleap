@@ -14,4 +14,8 @@ FactoryGirl.define do
     title 'I did 43 actually!'
     body 'I was feeling super motivated.'
   end
+
+  factory :category do
+    name 'Fitness'
+  end
 end

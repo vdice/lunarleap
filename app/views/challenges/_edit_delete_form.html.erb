@@ -1,7 +1,7 @@
 <div id="edit-challenge-form"></div>
 <div id="edit-challenge-links">
-  <%= link_to 'Edit', edit_user_challenge_path(@user, @challenge), id: 'edit-challenge-link', remote: true %> |
-  <%= link_to 'Delete', user_challenge_path(@user, @challenge),
+  <%= link_to (fa_icon 'edit'), edit_user_challenge_path(@user, @challenge), id: 'edit-challenge-link', remote: true %> |
+  <%= link_to (fa_icon 'trash'), user_challenge_path(@user, @challenge), id: 'delete-challenge-link',
                         data: {confirm: 'Are you sure?',
-                               method: 'delete'}%>  
+                               method: 'delete'}%>
 </div>

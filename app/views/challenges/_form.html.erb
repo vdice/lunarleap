@@ -11,6 +11,15 @@
     <%= f.text_area :description, class: 'form-control' %>
   </div>
 
+  <div class="field">
+    <!-- creates a collection of check boxes for all Category models with value of category.id and label of category.name -->
+    <strong>Add Categories:</strong><br>
+    <%= f.collection_check_boxes(:category_ids, Category.all, :id, :name) do |b| %>
+      <%= b.label { b.check_box } %>
+      <%= b.object.name %>
+    <% end %>
+  </div>
+
   <br>
   <div class="actions">
     <%= f.submit %>
