@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/lunarleap/spec/controllers/categories_controller_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/controllers/categories_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/rails_helper.rb": [
+      "/Users/vdice/work/lunarleap/spec/rails_helper.rb": [
         1,
         1,
         null,
@@ -60,14 +60,14 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/environment.rb": [
+      "/Users/vdice/work/lunarleap/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/lunarleap/config/application.rb": [
+      "/Users/vdice/work/lunarleap/config/application.rb": [
         1,
         null,
         1,
@@ -106,12 +106,12 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/boot.rb": [
+      "/Users/vdice/work/lunarleap/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/lunarleap/config/environments/test.rb": [
+      "/Users/vdice/work/lunarleap/config/environments/test.rb": [
         1,
         null,
         null,
@@ -155,7 +155,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/initializers/assets.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -168,7 +168,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/initializers/backtrace_silencers.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -177,7 +177,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/initializers/carrierwave.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/carrierwave.rb": [
         1,
         1,
         null,
@@ -190,12 +190,12 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/config/initializers/cookies_serializer.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/lunarleap/config/initializers/devise.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -462,13 +462,13 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/initializers/filter_parameter_logging.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/lunarleap/config/initializers/inflections.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -486,18 +486,18 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/initializers/mime_types.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/initializers/session_store.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/lunarleap/config/initializers/wrap_parameters.rb": [
+      "/Users/vdice/work/lunarleap/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -513,7 +513,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/factories.rb": [
+      "/Users/vdice/work/lunarleap/spec/factories.rb": [
         1,
         1,
         1,
@@ -536,7 +536,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/config/routes.rb": [
+      "/Users/vdice/work/lunarleap/config/routes.rb": [
         1,
         1,
         null,
@@ -557,7 +557,7 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/app/models/user.rb": [
+      "/Users/vdice/work/lunarleap/app/models/user.rb": [
         1,
         null,
         null,
@@ -570,7 +570,7 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/app/uploaders/avatar_uploader.rb": [
+      "/Users/vdice/work/lunarleap/app/uploaders/avatar_uploader.rb": [
         null,
         null,
         1,
@@ -623,23 +623,23 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/app/helpers/application_helper.rb": [
+      "/Users/vdice/work/lunarleap/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/lunarleap/app/helpers/categories_helper.rb": [
+      "/Users/vdice/work/lunarleap/app/helpers/categories_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/lunarleap/app/helpers/subscriptions_helper.rb": [
+      "/Users/vdice/work/lunarleap/app/helpers/subscriptions_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/lunarleap/app/helpers/updates_helper.rb": [
+      "/Users/vdice/work/lunarleap/app/helpers/updates_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/lunarleap/app/controllers/categories_controller.rb": [
+      "/Users/vdice/work/lunarleap/app/controllers/categories_controller.rb": [
         1,
         1,
         1,
@@ -650,7 +650,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/app/controllers/application_controller.rb": [
+      "/Users/vdice/work/lunarleap/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -674,14 +674,14 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/controllers/challenges_controller_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/controllers/challenges_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Guest/lunarleap/app/controllers/challenges_controller.rb": [
+      "/Users/vdice/work/lunarleap/app/controllers/challenges_controller.rb": [
         1,
         1,
         1,
@@ -752,25 +752,25 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/controllers/home_controller_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/controllers/home_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Guest/lunarleap/app/controllers/home_controller.rb": [
+      "/Users/vdice/work/lunarleap/app/controllers/home_controller.rb": [
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/controllers/subscriptions_controller_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/controllers/subscriptions_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Guest/lunarleap/app/controllers/subscriptions_controller.rb": [
+      "/Users/vdice/work/lunarleap/app/controllers/subscriptions_controller.rb": [
         1,
         1,
         1,
@@ -807,14 +807,14 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/controllers/updates_controller_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/controllers/updates_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/Guest/lunarleap/app/controllers/updates_controller.rb": [
+      "/Users/vdice/work/lunarleap/app/controllers/updates_controller.rb": [
         1,
         1,
         1,
@@ -862,7 +862,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/categories/visit_categories_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/categories/visit_categories_pages_spec.rb": [
         1,
         null,
         1,
@@ -880,7 +880,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/challenges/add_challenge_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/challenges/add_challenge_pages_spec.rb": [
         1,
         null,
         1,
@@ -917,7 +917,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/challenges/destroy_challenge_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/challenges/destroy_challenge_pages_spec.rb": [
         1,
         null,
         1,
@@ -941,7 +941,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/challenges/update_challenge_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/challenges/update_challenge_pages_spec.rb": [
         1,
         null,
         1,
@@ -976,7 +976,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/challenges/view_users_challenges_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/challenges/view_users_challenges_pages_spec.rb": [
         1,
         null,
         1,
@@ -1003,7 +1003,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/subscriptions/follow_user_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/subscriptions/follow_user_pages_spec.rb": [
         1,
         null,
         1,
@@ -1034,7 +1034,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/updates/add_update_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/updates/add_update_pages_spec.rb": [
         1,
         null,
         1,
@@ -1069,7 +1069,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/updates/show_update_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/updates/show_update_pages_spec.rb": [
         1,
         null,
         1,
@@ -1094,7 +1094,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/users/sign_up_user_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/users/sign_up_user_pages_spec.rb": [
         1,
         null,
         1,
@@ -1119,7 +1119,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/features/users/update_user_pages_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/features/users/update_user_pages_spec.rb": [
         1,
         null,
         1,
@@ -1152,7 +1152,7 @@
         null,
         null
       ],
-      "/Users/Guest/lunarleap/spec/helpers/categories_helper_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/helpers/categories_helper_spec.rb": [
         1,
         null,
         null,
@@ -1168,7 +1168,7 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/helpers/subscriptions_helper_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/helpers/subscriptions_helper_spec.rb": [
         1,
         null,
         null,
@@ -1184,7 +1184,7 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/helpers/updates_helper_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/helpers/updates_helper_spec.rb": [
         1,
         null,
         null,
@@ -1200,7 +1200,7 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/models/category_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/models/category_spec.rb": [
         1,
         null,
         1,
@@ -1209,14 +1209,14 @@
         2,
         null
       ],
-      "/Users/Guest/lunarleap/app/models/category.rb": [
+      "/Users/vdice/work/lunarleap/app/models/category.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/models/challenge_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/models/challenge_spec.rb": [
         1,
         null,
         1,
@@ -1226,7 +1226,7 @@
         2,
         null
       ],
-      "/Users/Guest/lunarleap/app/models/challenge.rb": [
+      "/Users/vdice/work/lunarleap/app/models/challenge.rb": [
         1,
         1,
         1,
@@ -1234,7 +1234,7 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/models/subscription_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/models/subscription_spec.rb": [
         1,
         null,
         1,
@@ -1243,14 +1243,14 @@
         2,
         null
       ],
-      "/Users/Guest/lunarleap/app/models/subscription.rb": [
+      "/Users/vdice/work/lunarleap/app/models/subscription.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/models/update_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/models/update_spec.rb": [
         1,
         null,
         1,
@@ -1259,7 +1259,7 @@
         2,
         null
       ],
-      "/Users/Guest/lunarleap/app/models/update.rb": [
+      "/Users/vdice/work/lunarleap/app/models/update.rb": [
         1,
         1,
         1,
@@ -1267,7 +1267,7 @@
         1,
         null
       ],
-      "/Users/Guest/lunarleap/spec/models/user_spec.rb": [
+      "/Users/vdice/work/lunarleap/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -1276,7 +1276,7 @@
         2,
         null
       ],
-      "/Users/Guest/lunarleap/app/controllers/users_controller.rb": [
+      "/Users/vdice/work/lunarleap/app/controllers/users_controller.rb": [
         1,
         1,
         1,
@@ -1312,6 +1312,6 @@
         null
       ]
     },
-    "timestamp": 1447373244
+    "timestamp": 1447697915
   }
 }

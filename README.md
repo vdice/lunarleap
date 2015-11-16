@@ -6,6 +6,8 @@
 
 ## Description
 
+_**This app is live!** It has been deployed via Heroku and can be seen  [**here**](https://lunarleap.herokuapp.com)._
+
 _Using this app, users can:_
 * _Create user accounts,_
 * _Add, view, modify and delete new monthly challenges_
