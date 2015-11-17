@@ -2,6 +2,8 @@
 
 ##### _An app to track monthly goals and be inspired by those of others_
 
+![Preview](/app/assets/images/preview.png?raw=true "Preview")
+
 #### By **_Vaughn Dice_**
 
 ## Description
